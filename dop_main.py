@@ -458,7 +458,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 def main() -> None:
     init_db()
 
-    BOT_TOKEN = "7669375037:AAFTzpbaIsX-8LC2uLPzl64QD4nvr3cPKNw"
+    BOT_TOKEN = "76"
 
     application = Application.builder().token(BOT_TOKEN).build()
 
